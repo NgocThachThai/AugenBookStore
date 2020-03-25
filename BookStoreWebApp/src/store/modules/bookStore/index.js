@@ -17,12 +17,11 @@ const state = {
   
   const actions = {
     async getBooks({ commit }, searchText) {
-      var result = await bookService.getBooks(searchText);
+      let result = await bookService.getBooks(searchText);
       commit(types.SET_BOOKS, { data: result.data.items });
     },
     async buyBook(context, deliveryInfor){
-      var result = await bookService.buyBook(deliveryInfor);
-      console.log(result);
+      return await bookService.buyBook(deliveryInfor);
     }
   };
   
