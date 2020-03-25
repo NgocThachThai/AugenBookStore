@@ -19,7 +19,6 @@ const state = {
     async getPackages({commit})
     {
       var result = await vendorService.getPackages();
-      console.log(result);
       commit(types.SET_PACKAGES, { data: result.data });
     }
   };

@@ -73,7 +73,6 @@ export default {
     open(item) {
       this.detailDialog = true;
       this.item = item;
-      console.log(item);
       this.selectDefaultPackage();
     },
     cancel() {
