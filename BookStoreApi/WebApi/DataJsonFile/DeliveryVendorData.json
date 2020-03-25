@@ -1,0 +1,61 @@
+{
+  "DeliveryVendor": {
+    "Motorbike": {
+      "Id": "1",
+      "ServiceType": 1,
+      "BaseCost": 5,
+      "FactorsForMonth": {
+        "Jan": 1,
+        "Feb": 1,
+        "Mar": 1,
+        "Apr": 1,
+        "May": 1,
+        "Jun": 0.5,
+        "Jul": 0.5,
+        "Aug": 0.5,
+        "Sep": 1.5,
+        "Oct": 1,
+        "Nov": 1,
+        "Dec": 1
+      }
+    },
+    "Train": {
+      "Id": "2",
+      "ServiceType": 2,
+      "BaseCost": 10,
+      "FactorsForMonth": {
+        "Jan": 1,
+        "Feb": 1,
+        "Mar": 1,
+        "Apr": 1,
+        "May": 1,
+        "Jun": 0.8,
+        "Jul": 0.8,
+        "Aug": 0.8,
+        "Sep": 1.8,
+        "Oct": 1,
+        "Nov": 1,
+        "Dec": 1
+      }
+    },
+    "Aircraft": {
+      "Id": "1",
+      "ServiceType": 3,
+      "BaseCost": 20,
+      "FactorsForMonth": {
+        "Jan": 1,
+        "Feb": 1,
+        "Mar": 1,
+        "Apr": 1,
+        "May": 1,
+        "Jun": 0.8,
+        "Jul": 0.8,
+        "Aug": 0.8,
+        "Sep": 2,
+        "Oct": 1,
+        "Nov": 1,
+        "Dec": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+export const RequiredField = [v => !!v || "This is required field"];
