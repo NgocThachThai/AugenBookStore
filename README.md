@@ -8,10 +8,11 @@ This is a test application for Augen company interview.
 
 Time summary: 
 - Design database/Get them into the code from json file: 1 hour.
-- Build the BE structure: 2.5 hour (include implemetation of Repository/UnitOfWork Pattern)
-- Build the FE structure: 1 hours (include setting libralies)
-- Create component/styling/event handling/state management: 2 hour.
+- Build the BE structure: 2.5 hours (include implemetation of Repository/UnitOfWork Pattern)
+- Build the FE structure: 1 hour (include setting libralies)
+- Create component/styling/event handling/state management: 2 hours.
 - Resolve the Delivery problem : 1 hour (include building Factory Pattern)
+- Create/handle information of vendor deliver on FE: 1 hour
 - Building and testing: 0.5 hour
-Grand total: 8 hours 
+Grand total: 9 hours 
  
